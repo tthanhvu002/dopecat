@@ -90,7 +90,12 @@ main{
 }
 .header .navbar ul li a {
   color: #fff;
+  transition: 0.2s ease;
   text-transform: uppercase;
+}
+.header .navbar ul li:hover a {
+  font-size: 20px;
+  color: yellow;
 }
 
 .hero-img {
@@ -145,6 +150,7 @@ h2 {
   margin: 0 auto;
 }
 .roadmap {
+  scroll-behavior: smooth;
   position: relative;
 }
 

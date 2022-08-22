@@ -46,3 +46,10 @@ document.querySelectorAll('.navbar li').forEach(item => {
   
 })
 
+
+
+document.querySelector('.roadmap-nav').onclick = (e) => {
+  e.preventDefault()
+  console.log(document.querySelector('.roadmap'));
+  document.querySelector('.roadmap').scrollIntoView(true)
+}
